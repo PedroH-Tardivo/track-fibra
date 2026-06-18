@@ -151,6 +151,11 @@ Ao final da apresentação, a equipe deve:
 
 **Tempo:** a banca tem teto de 15 min → supervisor entra como **beat curto da demo** (1–2 telas), não como passeio completo.
 
+### Status do supervisor (jun/2026)
+- [x] **Landing** — seção `#supervisor` publicada (painel mockup HTML/CSS dentro de janela de navegador). No ar.
+- [ ] **Figma — A FAZER DEPOIS** — criar as 3 telas web (Login Supervisor, Painel da Operação, Novo Chamado/Distribuir) em frames desktop e ligar a navegação. **Bloqueado pelo limite do MCP Figma (plano Starter)** — refazer quando a cota resetar ou após upgrade do plano.
+- [ ] **Miro — A FAZER DEPOIS** — apenas a anotação leve *"Supervisor (web) — origem dos chamados"* como ator a montante. **Não** mexer no foco circulado nem na lista de "soluções votadas".
+
 ---
 
 ## Checklist mestre de pendências
