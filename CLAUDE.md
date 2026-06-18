@@ -94,6 +94,8 @@ Slides com o conteúdo abaixo **+ demonstração do protótipo**.
   - [ ] **1 técnica de UX**
 - [ ] **Lista de tarefas** realizadas pelo participante (para o teste de usabilidade)
 
+> **Plano pronto em [`fase4-teste-usabilidade-ux.md`](fase4-teste-usabilidade-ux.md)** (Fase 4): objetivo, técnicas escolhidas (**usabilidade = Teste por tarefas com Think-Aloud**; **UX = UEQ-S**), perfil anônimo dos participantes (5, código P1–P5), lista de 5 tarefas do fluxo do técnico, roteiro do moderador, planilha de coleta e plano de análise (3–5 defeitos + heurísticas de Nielsen + antes/depois). Falta a equipe **executar** (recrutar, rodar, gravar, preencher).
+
 ### 2.3 — Resultados do teste + melhorias no protótipo (30 pontos)
 - [ ] **Problemas identificados: 3 a 5 defeitos**
 - [ ] Para cada problema: **screenshot do problema** seguido de **como foi corrigido** no protótipo (**antes e depois**)
