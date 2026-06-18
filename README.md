@@ -21,6 +21,7 @@ python3 -m http.server 8000
 
 ## ⚠️ Falta fazer (ações da equipe)
 - [ ] **Vídeo conceito (≤2 min)** — substituir o bloco placeholder na seção `#video` pelo embed do YouTube ou por um `assets/video.mp4` (instruções estão nos comentários do `index.html`). *Vale 50 pts.*
+- [ ] **Telas web do supervisor no Figma** — em espera (limite do MCP Figma Starter). A landing já tem a seção `#supervisor` com o painel como mockup HTML/CSS; depois dá pra trocar por prints reais do Figma ou manter o mockup.
 - [ ] **Liberar os embeds** para renderizarem no site publicado:
   - **Figma:** abrir o arquivo → *Share* → "Anyone with the link" = **can view**.
   - **Miro:** abrir o board → *Share* → habilitar acesso por link (qualquer pessoa pode ver).

@@ -19,6 +19,7 @@
     <nav class="nav-links">
       <a href="#produto">Produto</a>
       <a href="#telas">Telas</a>
+      <a href="#supervisor">Supervisor</a>
       <a href="#sprint">Design Sprint</a>
       <a href="#prototipo">Protótipo</a>
       <a href="#equipe">Equipe</a>
@@ -125,9 +126,9 @@
 <section id="telas" class="screens">
   <div class="container">
     <div class="center">
-      <span class="eyebrow">O protótipo</span>
+      <span class="eyebrow">App do técnico · Mobile</span>
       <h2 class="title">Da abertura do app à conclusão</h2>
-      <p class="lead">Quatro telas guiam a jornada do técnico, seguindo o fluxo definido no Design Sprint.</p>
+      <p class="lead">As telas guiam a jornada do técnico em campo, seguindo o fluxo definido no Design Sprint.</p>
     </div>
     <div class="screen-row">
       <div class="screen-card">
@@ -144,6 +145,94 @@
         <div class="phone"><img src="assets/proto-rota.png" alt="Rota do dia"></div>
         <h4>3 · Rota no mapa</h4>
         <p>Paradas, rota e a próxima parada em destaque.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SUPERVISOR (WEB) ===== -->
+<section id="supervisor" class="supervisor">
+  <div class="container">
+    <div class="super-lead-grid">
+      <div>
+        <span class="eyebrow">Para o supervisor · Web</span>
+        <h2 class="title">A outra ponta do mesmo fluxo</h2>
+        <p class="lead">Enquanto o técnico trabalha no app, o supervisor coordena tudo pelo navegador.
+          É daqui que os chamados nascem — e é aqui que a operação fica visível em tempo real.</p>
+      </div>
+      <ul class="super-points">
+        <li><span class="pic">🗂️</span><div><b>Cria e distribui chamados</b> que caem direto na lista do técnico.</div></li>
+        <li><span class="pic">🛰️</span><div><b>Acompanha status e localização</b> de cada equipe sem cobrar pelo WhatsApp.</div></li>
+        <li><span class="pic">💻</span><div><b>Versão web</b> — confirmada no pré-sprint: 100% dos supervisores usam computador.</div></li>
+      </ul>
+    </div>
+
+    <!-- Mockup ilustrativo do painel (será substituído/comparado pelos prints do Figma). -->
+    <div class="browser">
+      <div class="browser-bar">
+        <span class="dot r"></span><span class="dot y"></span><span class="dot g"></span>
+        <span class="browser-url">app.trackfibra.com/painel</span>
+      </div>
+      <div class="dash">
+        <!-- Sidebar -->
+        <aside class="dash-side">
+          <div class="brand"><span class="mark">≋</span> Track Fibra</div>
+          <div class="dash-nav active"><span class="di">▦</span> Painel</div>
+          <div class="dash-nav"><span class="di">🗂️</span> Chamados</div>
+          <div class="dash-nav"><span class="di">👷</span> Técnicos</div>
+          <div class="dash-nav"><span class="di">🗺️</span> Mapa</div>
+          <div class="dash-nav"><span class="di">📊</span> Relatórios</div>
+          <div class="spacer"></div>
+          <div class="dash-user"><span class="ua">RS</span><div>Renata Souza<br><span style="font-size:.72rem">Supervisora</span></div></div>
+        </aside>
+        <!-- Main -->
+        <div class="dash-main">
+          <div class="dash-top">
+            <div>
+              <h3>Painel da Operação</h3>
+              <div class="sub">Quinta, 18 de junho · NetFibra — Campo Mourão</div>
+            </div>
+            <span class="dash-new">+ Novo chamado</span>
+          </div>
+
+          <div class="dash-stats">
+            <div class="stat"><b>12</b><span>Chamados hoje</span><div class="sbar"><i style="width:100%;background:var(--blue)"></i></div></div>
+            <div class="stat"><b>5</b><span>Pendentes</span><div class="sbar"><i style="width:42%;background:#F59E0B"></i></div></div>
+            <div class="stat"><b>3</b><span>Em andamento</span><div class="sbar"><i style="width:25%;background:var(--blue)"></i></div></div>
+            <div class="stat"><b>4</b><span>Concluídos</span><div class="sbar"><i style="width:33%;background:#10B981"></i></div></div>
+          </div>
+
+          <div class="dash-grid">
+            <div class="panel">
+              <div class="panel-h">Chamados do dia <span class="chip">Tempo real</span></div>
+              <table class="tbl">
+                <thead><tr><th>Cliente</th><th>Tipo</th><th>Técnico</th><th>Status</th></tr></thead>
+                <tbody>
+                  <tr><td><b>Jorge da Silva</b><small>Av. Paraná, 199</small></td><td>Manutenção</td><td>Carlos M.</td><td><span class="pill prog">Em andamento</span></td></tr>
+                  <tr><td><b>Júlio Carneiro</b><small>R. Júlio, 299</small></td><td>Instalação</td><td>Ana P.</td><td><span class="pill pend">Pendente</span></td></tr>
+                  <tr><td><b>Mariana Souza</b><small>Av. Brasil, 1402</small></td><td>Recolhimento</td><td>Carlos M.</td><td><span class="pill pend">Pendente</span></td></tr>
+                  <tr><td><b>Roberto Lima</b><small>R. das Flores, 87</small></td><td>Instalação</td><td>Diego F.</td><td><span class="pill done">Concluído</span></td></tr>
+                  <tr><td><b>Fernanda Alves</b><small>R. Goiás, 540</small></td><td>Manutenção</td><td>Ana P.</td><td><span class="pill pend">Pendente</span></td></tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="panel">
+              <div class="panel-h">Técnicos no mapa</div>
+              <div class="map">
+                <div class="lines"></div>
+                <span class="pin b" style="left:30%;top:34%"></span>
+                <span class="pin c" style="left:62%;top:52%"></span>
+                <span class="pin g" style="left:46%;top:70%"></span>
+                <span class="pin o" style="left:74%;top:28%"></span>
+                <div class="map-legend">
+                  <div><i style="background:var(--blue)"></i> Carlos M. — em rota</div>
+                  <div><i style="background:var(--cyan)"></i> Ana P. — atendendo</div>
+                  <div><i style="background:#10B981"></i> Diego F. — concluído</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>

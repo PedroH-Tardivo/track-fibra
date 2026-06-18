@@ -124,6 +124,35 @@ Ao final da apresentação, a equipe deve:
 
 ---
 
+## Perfil Supervisor (web) — decisão e plano por fase
+
+> **Decisão (jun/2026):** adicionar o perfil **supervisor** ao produto como **fluxo secundário em versão *web*** — **não** como segundo foco do Design Sprint. O foco do sprint **continua sendo o técnico** (etapa *visualizar chamados pendentes*). O supervisor entra como **a outra ponta do mesmo fluxo** (a origem dos chamados) e como a **versão web** já prevista no pré-sprint.
+
+**Por que assim (consistência — critério avaliado na Entrega 2):**
+- O mapa Usuário→Objetivo é **"Técnico → Objetivo"**; o **foco circulado** é só *visualizar chamados pendentes*; as **5 telas votadas** e o **storyboard** são todos do técnico (mobile). Retrofitar o sprint pra incluir o supervisor **criaria inconsistência**.
+- O **pré-sprint já justifica** o supervisor ser **web** ("supervisores: 100% usam computador → confirma versão web") e já lista as dores dele (falta de visibilidade da operação). Logo, o supervisor é **escopo de produto**, não improviso.
+- **Regra de ouro:** **não** mexer no círculo de foco nem na lista de "soluções votadas" do Miro. O supervisor é complemento; mostrar que o sprint focou em um alvo **ganha** ponto de método.
+
+**Telas mínimas do supervisor (web, ~1440×900):**
+1. **Login do Supervisor (web)** — card central, mesma marca (refazer o login supervisor que estava mobile).
+2. **Painel da Operação (dashboard)** — barra lateral + tabela de chamados do dia (status Pendente/Em andamento/Concluído) + filtros + **mapa com técnicos** (a "visibilidade em tempo real" pedida pelos supervisores).
+3. **Novo Chamado / Distribuir** — formulário (cliente, endereço, tipo, técnico, prioridade). Ao salvar, **o chamado entra na lista de pendentes do técnico** → fecha o loop com o foco do sprint.
+
+**Narrativa da demo (loop):** Supervisor cria o chamado (web) → aparece em *chamados pendentes* do técnico (foco, mobile) → técnico executa e encerra → status volta ao painel do supervisor.
+
+**Impacto por fase:**
+| Fase | Impacto | Ação |
+|---|---|---|
+| 1 · Protótipo (Figma) | Médio | Criar as 3 telas **web** (frames desktop, **não** mobile), mesma identidade (Inter, #1D4ED8/#06B6D4). Ligar navegação interna. Atenção ao limite do MCP Figma (Starter) — fazer incremental. |
+| 2 · Artefatos (Miro) | Mínimo | **Não** alterar foco nem "soluções votadas". No máximo, anotação leve: *"Supervisor (web) — origem dos chamados"* como ator a montante do mapa/storyboard. |
+| 3 · Landing + Vídeo | Positivo | Subseção **"Para o supervisor (web)"** com mockup de navegador; reforça o "2 perfis · web + mobile" já prometido. Roteiro do vídeo ganha o gancho supervisor→técnico. |
+| 4 · Teste + UX | Decisão de escopo | **Recomendado:** teste **principal = técnico**; **opcional** 2–3 tarefas curtas do supervisor (login web → criar chamado → acompanhar status). |
+| 5 · Correções + Slides | Leve | Slide "Dois perfis, um produto" + slide explicando **por que o sprint focou no técnico** (método). Defeitos saem do fluxo testado. |
+
+**Tempo:** a banca tem teto de 15 min → supervisor entra como **beat curto da demo** (1–2 telas), não como passeio completo.
+
+---
+
 ## Checklist mestre de pendências
 
 **Entrega 1 — Landing page**
