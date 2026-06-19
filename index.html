@@ -7,7 +7,7 @@
 <meta name="description" content="Track Fibra organiza o dia do técnico de campo e dá ao supervisor visibilidade em tempo real das chamadas de serviço. Web + mobile.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -30,26 +30,44 @@
 
 <!-- ===== HERO ===== -->
 <section class="hero">
-  <div class="container">
-    <div>
-      <span class="eyebrow">Web + Mobile · Provedores de internet</span>
-      <h1>O dia do técnico, <span class="grad">organizado de ponta a ponta.</span></h1>
-      <p>O Track Fibra reúne as chamadas de serviço — instalação, manutenção e recolhimento —
+  <div class="hero-bg" aria-hidden="true">
+    <svg class="signal" viewBox="0 0 240 240" fill="none">
+      <defs>
+        <linearGradient id="sg" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0" stop-color="#1D4ED8"/><stop offset="1" stop-color="#06B6D4"/>
+        </linearGradient>
+      </defs>
+      <g stroke="url(#sg)" stroke-width="1.5">
+        <circle class="ring r1" cx="120" cy="120" r="34"/>
+        <circle class="ring r2" cx="120" cy="120" r="62"/>
+        <circle class="ring r3" cx="120" cy="120" r="90"/>
+        <circle class="ring r4" cx="120" cy="120" r="118"/>
+      </g>
+      <circle cx="120" cy="120" r="6" fill="url(#sg)"/>
+    </svg>
+  </div>
+  <div class="container hero-grid">
+    <div class="hero-copy">
+      <span class="eyebrow"><span class="sig-dot"></span>Web + Mobile · Provedores de internet</span>
+      <h1>O dia do técnico, organizado de <span class="hl">ponta a ponta</span>.</h1>
+      <p class="hero-sub">O Track Fibra reúne as chamadas de serviço — instalação, manutenção e recolhimento —
          num só lugar. O técnico vê tudo do dia no celular; o supervisor acompanha em tempo real pela web.</p>
       <div class="hero-cta">
         <a class="btn btn-primary" href="#prototipo">Ver o protótipo</a>
         <a class="btn btn-ghost" href="#video">▶ Assistir ao vídeo</a>
       </div>
-      <div class="hero-meta">
-        <div><b>3</b> tipos de chamada</div>
-        <div><b>2</b> perfis: técnico e supervisor</div>
-        <div><b>Tempo real</b> de ponta a ponta</div>
+      <div class="hero-stats">
+        <div><b>17</b><span>respondentes no pré-sprint</span></div>
+        <div><b>2</b><span>perfis · técnico e supervisor</span></div>
+        <div><b>3</b><span>tipos de chamada</span></div>
       </div>
     </div>
-    <div class="phone-stack">
-      <div class="phone p1"><img src="assets/proto-rota.png" alt="Tela de rota do dia"></div>
-      <div class="phone p2"><img src="assets/proto-lista.png" alt="Lista de chamados"></div>
-      <div class="phone p3"><img src="assets/proto-login.png" alt="Tela de login"></div>
+    <div class="hero-art">
+      <div class="phone-stack">
+        <div class="phone p1"><img src="assets/proto-rota.png" alt="Tela de rota do dia"></div>
+        <div class="phone p2"><img src="assets/proto-lista.png" alt="Lista de chamados"></div>
+        <div class="phone p3"><img src="assets/proto-login.png" alt="Tela de login"></div>
+      </div>
     </div>
   </div>
 </section>
