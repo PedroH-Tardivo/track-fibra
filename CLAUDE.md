@@ -126,37 +126,19 @@ Ao final da apresentação, a equipe deve:
 
 ---
 
-## Perfil Supervisor (web) — decisão e plano por fase
+## Decisão: produto focado no técnico (supervisor REMOVIDO — jun/2026)
 
-> **Decisão (jun/2026):** adicionar o perfil **supervisor** ao produto como **fluxo secundário em versão *web*** — **não** como segundo foco do Design Sprint. O foco do sprint **continua sendo o técnico** (etapa *visualizar chamados pendentes*). O supervisor entra como **a outra ponta do mesmo fluxo** (a origem dos chamados) e como a **versão web** já prevista no pré-sprint.
+> **Reversão (jun/2026):** o perfil **supervisor** foi **descartado** do produto. Track Fibra é agora **só o app mobile do técnico**. Motivo: foco total e **consistência máxima** com o Design Sprint (mapa, foco circulado, telas votadas e storyboard são todos do técnico) — sem nenhum fluxo paralelo para explicar ou justificar. O pré-sprint mantém os 17 respondentes (12 técnicos + 5 supervisores) como **dado de pesquisa**, mas o **produto** atende apenas o técnico.
 
-**Por que assim (consistência — critério avaliado na Entrega 2):**
-- O mapa Usuário→Objetivo é **"Técnico → Objetivo"**; o **foco circulado** é só *visualizar chamados pendentes*; as **5 telas votadas** e o **storyboard** são todos do técnico (mobile). Retrofitar o sprint pra incluir o supervisor **criaria inconsistência**.
-- O **pré-sprint já justifica** o supervisor ser **web** ("supervisores: 100% usam computador → confirma versão web") e já lista as dores dele (falta de visibilidade da operação). Logo, o supervisor é **escopo de produto**, não improviso.
-- **Regra de ouro:** **não** mexer no círculo de foco nem na lista de "soluções votadas" do Miro. O supervisor é complemento; mostrar que o sprint focou em um alvo **ganha** ponto de método.
+**O que foi removido:**
+- **Landing** — seção `#supervisor`, link do nav e CSS do painel/dashboard apagados; hero e features reescritos sem menção a supervisor.
+- **Figma** — tela "05 · Login (Supervisor)" deletada do arquivo. Restam as **4 telas do técnico** (Login, Lista, Rota, Detalhe/Encerrar).
+- **Miro** — a anotação de "ator a montante" foi cancelada (não chegou a ser feita). Nada a remover no board.
 
-**Telas mínimas do supervisor (web, ~1440×900):**
-1. **Login do Supervisor (web)** — card central, mesma marca (refazer o login supervisor que estava mobile).
-2. **Painel da Operação (dashboard)** — barra lateral + tabela de chamados do dia (status Pendente/Em andamento/Concluído) + filtros + **mapa com técnicos** (a "visibilidade em tempo real" pedida pelos supervisores).
-3. **Novo Chamado / Distribuir** — formulário (cliente, endereço, tipo, técnico, prioridade). Ao salvar, **o chamado entra na lista de pendentes do técnico** → fecha o loop com o foco do sprint.
-
-**Narrativa da demo (loop):** Supervisor cria o chamado (web) → aparece em *chamados pendentes* do técnico (foco, mobile) → técnico executa e encerra → status volta ao painel do supervisor.
-
-**Impacto por fase:**
-| Fase | Impacto | Ação |
-|---|---|---|
-| 1 · Protótipo (Figma) | Médio | Criar as 3 telas **web** (frames desktop, **não** mobile), mesma identidade (Inter, #1D4ED8/#06B6D4). Ligar navegação interna. Atenção ao limite do MCP Figma (Starter) — fazer incremental. |
-| 2 · Artefatos (Miro) | Mínimo | **Não** alterar foco nem "soluções votadas". No máximo, anotação leve: *"Supervisor (web) — origem dos chamados"* como ator a montante do mapa/storyboard. |
-| 3 · Landing + Vídeo | Positivo | Subseção **"Para o supervisor (web)"** com mockup de navegador; reforça o "2 perfis · web + mobile" já prometido. Roteiro do vídeo ganha o gancho supervisor→técnico. |
-| 4 · Teste + UX | Decisão de escopo | **Recomendado:** teste **principal = técnico**; **opcional** 2–3 tarefas curtas do supervisor (login web → criar chamado → acompanhar status). |
-| 5 · Correções + Slides | Leve | Slide "Dois perfis, um produto" + slide explicando **por que o sprint focou no técnico** (método). Defeitos saem do fluxo testado. |
-
-**Tempo:** a banca tem teto de 15 min → supervisor entra como **beat curto da demo** (1–2 telas), não como passeio completo.
-
-### Status do supervisor (jun/2026)
-- [x] **Landing** — seção `#supervisor` publicada (painel mockup HTML/CSS dentro de janela de navegador). No ar.
-- [ ] **Figma — A FAZER DEPOIS** — criar as 3 telas web (Login Supervisor, Painel da Operação, Novo Chamado/Distribuir) em frames desktop e ligar a navegação. **Bloqueado pelo limite do MCP Figma (plano Starter)** — refazer quando a cota resetar ou após upgrade do plano.
-- [ ] **Miro — A FAZER DEPOIS** — apenas a anotação leve *"Supervisor (web) — origem dos chamados"* como ator a montante. **Não** mexer no foco circulado nem na lista de "soluções votadas".
+### Protótipo Figma — 100% interativo (jun/2026)
+- Arquivo `WlkwUAUbbs0dsNf184dEUv`. Navegação clicável ligada via `setReactionsAsync` (ON_CLICK → NODE NAVIGATE, transição PUSH/DISSOLVE). Ponto de partida do fluxo = **01 · Login** (`flowStartingPoints`).
+- Loop: Login → *Entrar* → Lista → (toque no card) → Detalhe → *Finalizar/Reagendar/‹voltar* → Lista; Lista ↔ Rota pela barra inferior; Rota → *Iniciar navegação* → Detalhe.
+- Abas da barra inferior **já ativas** ficam inertes de propósito (o Figma rejeita navegar para a própria tela). Telas não desenhadas no sprint (Perfil, recuperar senha) não têm destino.
 
 ---
 

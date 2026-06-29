@@ -15,20 +15,20 @@
 ## 2 · O problema *(2.1 — motivação)*
 - O trabalho de campo é coordenado por planilha e WhatsApp, sem fonte única de informação
 - Técnicos se deslocam à toa por dados incorretos ou incompletos
-- Supervisores não têm visibilidade: cobram status o tempo todo pelo WhatsApp
+- Status e conclusões dependem de mensagens soltas, sem registro confiável
 - Dependência da memória e ausência de rota organizada
 
 ## 3 · Pré-sprint: o que motivou *(2.1)*
 - 2 questionários (Google Forms), 17 respondentes: 12 técnicos + 5 supervisores (via provedor NetFibra)
 - Falta de fonte única e confiável de informação
-- Falta de visibilidade da operação
+- Falta de visibilidade do andamento dos atendimentos
 - Dependência da memória e ausência de rota foi o item pior avaliado
-- Supervisores: 100% usam computador → confirma a versão web
+- Técnicos trabalham o dia todo na rua → a solução é mobile, no celular
 
 ## 4 · A solução: Track Fibra *(2.1)*
-- Para o técnico: um organizador confiável do dia de trabalho (app mobile)
-- Para o supervisor: uma central de visibilidade da operação (web)
-- Dois perfis, um produto: duas pontas do mesmo fluxo
+- Um organizador confiável do dia de trabalho do técnico (app mobile)
+- Tudo num só lugar: lista do dia, rota no mapa e detalhe de cada atendimento
+- Do login à conclusão do chamado, com finalizar ou reagendar em um toque
 - Três tipos de chamada: instalação, manutenção e recolhimento
 
 ## 5 · Design Sprint: foco no técnico *(consistência de método)*
@@ -36,13 +36,13 @@
 - Objetivo de longo prazo: facilitar o gerenciamento de chamados de serviço
 - Foco do sprint (circulado no mapa): **visualizar os chamados pendentes**
 - HMWs mais votadas: status em tempo real · técnico com todas as informações · otimizar rotas
-- O sprint mirou um único alvo — decisão de método (não retrofitamos o supervisor)
+- O sprint mirou um único alvo, o técnico em campo — foco e consistência de método
 
 ## 6 · O protótipo
-- Fluxo do técnico (mobile): login → chamados do dia → rota no mapa → encerrar/reagendar
-- Supervisor (web): painel da operação que cria e distribui os chamados (a origem do fluxo)
-- Telas de alta fidelidade no Figma
-- O chamado criado pelo supervisor aparece na lista do técnico → fecha o loop
+- Fluxo do técnico (mobile): login → chamados do dia → rota no mapa → detalhe → encerrar/reagendar
+- 4 telas de alta fidelidade no Figma, com a identidade Sinal & Fibra
+- Protótipo **100% navegável**: todo botão é clicável, como um app de verdade
+- Demonstra o foco do sprint de ponta a ponta — do login à conclusão do chamado
 
 ## 7 · Teste de usabilidade + UX: método *(2.2)*
 - Participantes: 5, anônimos (P1–P5), com familiaridade digital variada
