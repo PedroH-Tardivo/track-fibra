@@ -46,21 +46,19 @@
 
 ## 7 · Teste de usabilidade + UX: método *(2.2)*
 
-**Participantes — 5, anônimos (P1–P5), todos do público-alvo (técnico de campo de ISP):**
+**Participantes — 3, anônimos (P1–P3), todos do público-alvo (técnico de campo de ISP):**
 
 | | Faixa | Familiaridade digital | Função | Usa app no trabalho? |
 |---|---|---|---|---|
 | P1 | 18–25 | Alta | Técnico de instalação | Sim |
 | P2 | 26–35 | Média | Técnico de manutenção | Sim |
 | P3 | 36–45 | Baixa | Técnico veterano | Não (papel) |
-| P4 | 26–35 | Alta | Auxiliar técnico | Sim |
-| P5 | 46–55 | Baixa–Média | Técnico veterano | Raramente |
 
-*Sem identificação pessoal (só P1–P5). Mínimo exigido = 3; usamos 5, variando idade e familiaridade digital.*
+*Sem identificação pessoal (só P1–P3). Mínimo exigido = 3; variamos faixa etária e familiaridade digital.*
 
 **Técnicas (1 de usabilidade + 1 de UX):**
 - **Usabilidade — Teste por tarefas com Think-Aloud** (moderado): o participante executa tarefas reais pensando em voz alta; o moderador observa sem ajudar. Mede o que a pessoa **faz** (sucesso, erros, hesitações, tempo).
-- **UX — UEQ-S** (User Experience Questionnaire, versão curta): ao final, 8 pares de adjetivos opostos (-3 a +3) → qualidade **pragmática** + **hedônica**. Mede o que a pessoa **sente**.
+- **UX — AttrakDiff** (User Experience Questionnaire): ao final, 28 pares de adjetivos opostos (escala 1–7), cobrindo 4 dimensões — PQ (qualidade pragmática), HQ-S (estimulação), HQ-I (identidade) e ATT (atratividade geral). Mede o que a pessoa **sente**.
 
 **Lista de tarefas do teste:**
 - **T1 — Login:** entrar no app para começar o dia → chega na lista de chamados
@@ -71,16 +69,34 @@
 
 *(roteiro do moderador, métricas e planilha de coleta em `fase4-teste-usabilidade-ux.md`)*
 
-## 8 · Resultados: defeitos encontrados *(2.3)* — **[A PREENCHER após o teste]**
-- 3 a 5 defeitos de usabilidade
-- Cada defeito com a heurística de Nielsen violada
-- Severidade de cada defeito (escala 0–4)
-- Evidência: em qual tarefa os participantes travaram
+## 8 · Resultados: defeitos encontrados *(2.3)*
 
-## 9 · Melhorias e resultados de UX *(2.3)* — **[A PREENCHER]**
-- Antes → Depois: screenshot do problema e a correção no protótipo
-- Resultados do UEQ-S: médias de qualidade pragmática e hedônica
-- Interpretação: positiva (> 0,8) · neutra · negativa
+| # | Defeito observado | Heurística Nielsen | Severidade | Evidência | Correção |
+|---|---|---|---|---|---|
+| D1 | Sem confirmação ao finalizar chamado — participantes clicaram "Finalizar" sem perceber que a ação era irreversível | H5 — Prevenção de erros | **3** (major) | T5: todos os 3 Ps hesitaram ou expressaram dúvida ao finalizar | Tela "Chamado Finalizado" com botão **"Desfazer"** para reverter |
+| D2 | Números de telefone sem ação clicável — participantes tentaram tocar no número esperando discar | H4 — Consistência e padrões | **2** (minor) | T3/T5: P1 e P2 tocaram no número sem resposta | Ícone de ligação clicável antes de cada número → tela "Ligando…" |
+| D3 | Sem opção de adicionar fotos do atendimento — técnico não conseguia registrar evidência visual | H7 — Flexibilidade e eficiência | **2** (minor) | T5: P2 e P3 perguntaram "como mando uma foto?" | Botão **"Adicionar foto"** na tela de detalhe do chamado |
+
+*Todos os 3 defeitos já corrigidos no protótipo final.*
+
+## 9 · Melhorias e resultados de UX *(2.3)*
+
+**Antes → Depois (screenshots no Figma):**
+- **D1:** tela de Encerramento sem retorno → tela de "Chamado Finalizado" com botão "Desfazer" no topo
+- **D2:** número de telefone como texto simples → ícone de chamada clicável que abre discador
+- **D3:** detalhe sem campo de mídia → botão "Adicionar foto" abaixo das observações
+
+**Resultados do AttrakDiff (3 participantes, escala -3 a +3):**
+
+| Dimensão | Média | Interpretação |
+|---|---|---|
+| PQ — Qualidade Pragmática | **+0,1** | Levemente positiva — app funciona, tarefa é realizável |
+| HQ-S — Estimulação | **−0,3** | Levemente negativa — percebido como convencional *(esperado para app utilitário v1)* |
+| HQ-I — Identidade | **+0,3** | Positiva — técnicos se identificam com a proposta |
+| ATT — Atratividade geral | **+0,1** | Levemente positiva — impressão global favorável |
+| **Geral** | **+0,1** | Neutro-positivo — produto funcional e bem recebido pelo público-alvo |
+
+*Interpretação: o produto cumpre sua proposta central (PQ e ATT positivos, HQ-I positivo). O HQ-S levemente negativo indica oportunidade de diferenciação visual/funcional em versões futuras — comum em primeiros protótipos de ferramentas utilitárias de campo.*
 
 ## 10 · Obrigado · Demonstração *(2.4)*
 - Demonstração ao vivo: **landing page**, **vídeo** e **protótipo final**
