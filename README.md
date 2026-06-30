@@ -3,6 +3,7 @@
 Sistema de Gerenciamento de Chamadas de Serviço para Provedores de Internet — trabalho final de **Interação Humano-Computador** (UTFPR – Campo Mourão, BCC, 2026).
 
 **Landing page:** https://pedroh-tardivo.github.io/track-fibra/
+
 **Protótipo (Figma):** https://www.figma.com/proto/WlkwUAUbbs0dsNf184dEUv/Track-Fibra?node-id=6-2&starting-point-node-id=6-2&scaling=scale-down-width
 
 ---
