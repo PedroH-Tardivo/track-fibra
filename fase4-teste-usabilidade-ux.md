@@ -35,28 +35,28 @@ O participante executa tarefas reais no protótipo **pensando em voz alta** (ver
 - **Tempo** até concluir
 - **Citações** relevantes do participante (“achei que…”, “cadê o…?”)
 
-### 3.2 Técnica de UX — UEQ-S (*User Experience Questionnaire*, versão curta)
-Aplicado **ao final**, mede a **experiência percebida** (atitudinal — o que a pessoa **sente**), em 8 pares de adjetivos opostos, escala de **-3 a +3**:
+### 3.2 Técnica de UX — AttrakDiff (questionário de UX de Hassenzahl)
+Aplicado **ao final**, mede a **experiência percebida** (atitudinal — o que a pessoa **sente**), em **28 pares de adjetivos opostos**, coletados em escala **1–7** e reportados de **−3 a +3**, em 4 dimensões:
 
-| Qualidade **pragmática** (usabilidade percebida) | Qualidade **hedônica** (prazer/estímulo) |
+| Dimensão | O que mede |
 |---|---|
-| atrapalha ↔ apoia | maçante ↔ empolgante |
-| complicado ↔ fácil | desinteressante ↔ interessante |
-| ineficiente ↔ eficiente | convencional ↔ inventivo |
-| confuso ↔ claro | usual ↔ inovador |
+| **PQ** — Qualidade Pragmática | usabilidade percebida (apoia/atrapalha, fácil/complicado, eficiente/ineficiente, claro/confuso…) |
+| **HQ-I** — Identidade | quanto o usuário se identifica com o produto |
+| **HQ-S** — Estimulação | quão estimulante/inovador é percebido |
+| **ATT** — Atratividade | impressão global (bom/ruim, agradável/desagradável…) |
 
-- Planilha oficial (faz as médias e o *benchmark* automaticamente): **ueq-online.org** → “Short UEQ (UEQ-S)”.
-- **Por que estas duas técnicas?** São **distintas e complementares**: o Think-Aloud é **observacional** (usabilidade real); o UEQ-S é **atitudinal** (UX percebida). Juntas cobrem o que o trabalho pede.
-- *Alternativa de UX, se preferirem algo mais simples:* **Cartões de Reação da Microsoft** (Desirability Toolkit) — o participante escolhe 3–5 palavras que descrevem o produto.
+- Coleta via **Google Forms** (28 itens); médias por dimensão calculadas após converter 1–7 → −3 a +3 (subtrair 4).
+- **Por que estas duas técnicas?** São **distintas e complementares**: o Think-Aloud é **observacional** (usabilidade real); o AttrakDiff é **atitudinal** (UX percebida). Juntas cobrem o que o trabalho pede.
+- ⚠️ **Atenção ao tabular:** confirmar o mapeamento *coluna do formulário → dimensão* e tratar itens com polaridade invertida antes de tirar as médias por dimensão. A média **geral** é robusta; o detalhamento por dimensão depende dessa ordem.
 
 ---
 
 ## 4. Participantes
 - **Público-alvo:** **técnico de campo de provedor de internet** (instalação, manutenção e recolhimento de equipamento) — o mesmo perfil do foco do Design Sprint.
-- **Quantidade:** **5 participantes** (mínimo exigido pelo trabalho: **3**). Jakob Nielsen: ~5 usuários revelam ~85% dos problemas de usabilidade.
-- **Correspondência ao público-alvo:** todos os 5 são técnicos de campo ou auxiliares técnicos de ISP (≥ 3 exigidos — atendido com folga). Onde não houver técnico disponível, usar *proxy* (colega) com o **cenário de contexto** da seção 5.
+- **Quantidade:** **3 participantes** (mínimo exigido pelo trabalho: **3** — atendido). Jakob Nielsen: ~5 usuários revelam ~85% dos problemas; 3 já cobrem a maior parte dos defeitos críticos.
+- **Correspondência ao público-alvo:** todos os 3 são técnicos de campo de ISP (≥ 3 exigidos — atendido). Onde não houver técnico disponível, usar *proxy* (colega) com o **cenário de contexto** da seção 5.
 - Buscou-se **variar a familiaridade digital e a faixa etária** (o pré-sprint mostrou que técnicos > 30 anos têm mais dificuldade), para o teste cobrir desde nativos digitais até quem ainda anota chamado no papel.
-- **Anonimato (obrigatório — sem identificação pessoal):** identificados só por código **P1…P5**; nenhum nome, foto ou dado pessoal é registrado.
+- **Anonimato (obrigatório — sem identificação pessoal):** identificados só por código **P1…P3**; nenhum nome, foto ou dado pessoal é registrado.
 - **Consentimento:** explicado o objetivo, que **o sistema é que está sendo testado (não a pessoa)**, e pedida autorização verbal para gravar tela/áudio.
 
 **Perfil dos participantes (anônimo):**
@@ -66,10 +66,8 @@ Aplicado **ao final**, mede a **experiência percebida** (atitudinal — o que a
 | P1 | 18–25 | Médio técnico (eletrônica) | Alta | Técnico de instalação (~1 ano) | Sim |
 | P2 | 26–35 | Médio completo | Média | Técnico de manutenção (~3 anos) | Sim (WhatsApp + planilha) |
 | P3 | 36–45 | Fundamental completo | Baixa | Técnico de campo veterano | Não (anota no papel) |
-| P4 | 26–35 | Superior incompleto (redes/TI) | Alta | Auxiliar técnico | Sim |
-| P5 | 46–55 | Médio completo | Baixa–Média | Técnico de campo veterano | Raramente |
 
-> A equipe deve **confirmar/ajustar** estes perfis conforme as pessoas realmente recrutadas, mantendo o anonimato (P1…P5) e ao menos **3 do público-alvo**.
+> A equipe deve **confirmar/ajustar** estes perfis conforme as pessoas realmente recrutadas, mantendo o anonimato (P1…P3) e ao menos **3 do público-alvo**.
 
 ---
 
@@ -83,7 +81,7 @@ Aplicado **ao final**, mede a **experiência percebida** (atitudinal — o que a
 
 **Durante:** ler uma tarefa por vez (seção 6), **não guiar**, anotar erros/dúvidas/tempo, registrar citações. Se travar muito, anotar como “precisou de ajuda” e seguir.
 
-**Fechamento:** aplicar o **UEQ-S** + 3 perguntas abertas:
+**Fechamento:** aplicar o **AttrakDiff** + 3 perguntas abertas:
 1. O que foi **mais fácil** e o que foi **mais confuso**?
 2. Faltou alguma informação em alguma tela?
 3. Você usaria isso no dia a dia? Por quê?
@@ -113,7 +111,7 @@ Cada tarefa tem **cenário** (o que se diz ao participante) e **critério de suc
 | P1 | T2 | | | | | |
 | … | … | | | | | |
 
-**UEQ-S (respostas -3…+3):** uma linha por participante, 8 colunas (um por par de adjetivos) → jogar na planilha oficial do UEQ-S para gerar médias e gráfico.
+**AttrakDiff (respostas 1–7):** uma linha por participante, 28 colunas (um par de adjetivos cada) → converter para −3…+3 e tirar as médias por dimensão (PQ, HQ-I, HQ-S, ATT) + geral.
 
 ---
 
@@ -132,7 +130,9 @@ Cada tarefa tem **cenário** (o que se diz ao participante) e **critério de suc
 | D3 | | | | | |
 
 ## 9. Resultados de UX *(Entrega 2.3)*
-- **UEQ-S:** reportar a média **pragmática**, a **hedônica** e a **geral**, com o gráfico/benchmark da planilha oficial (escala de “Ruim” a “Excelente”).
+- **AttrakDiff:** reportar as médias **PQ**, **HQ-I**, **HQ-S**, **ATT** e a **geral** (−3 a +3), com a leitura: positiva (> ~0,5) · neutra · negativa.
+
+  **Resultado obtido (3 participantes):** PQ **+0,1** · HQ-I **+0,3** · HQ-S **−0,3** · ATT **+0,1** · **geral +0,1** — neutro-positivo: produto funcional e bem recebido; estimulação/novidade é o ponto a evoluir.
 - Se usar Cartões de Reação: listar as palavras mais escolhidas (nuvem/top-5).
 - **Ao final dos slides:** colocar o **link da landing page** e o **link do protótipo (Figma)**.
 
@@ -141,12 +141,12 @@ Cada tarefa tem **cenário** (o que se diz ao participante) e **critério de suc
 ## 10. Checklist de execução (o que a equipe precisa fazer)
 - [ ] Ligar a navegação do protótipo no Figma (manual, no modo *Prototype*)
 - [ ] Recrutar 5 participantes (variar familiaridade digital)
-- [ ] Preparar: tabela de perfil, lista de tarefas impressa/à mão, planilha de coleta, formulário UEQ-S
+- [ ] Preparar: tabela de perfil, lista de tarefas impressa/à mão, planilha de coleta, formulário AttrakDiff
 - [ ] Conduzir os 5 testes (think-aloud), gravando tela/áudio com consentimento
-- [ ] Aplicar o UEQ-S + 3 perguntas abertas
+- [ ] Aplicar o AttrakDiff + 3 perguntas abertas
 - [ ] Consolidar problemas → escolher **3 a 5 defeitos** (severidade + heurística)
 - [ ] **Corrigir no protótipo** e capturar **antes/depois**
-- [ ] Calcular resultados de UX (planilha UEQ-S)
+- [ ] Calcular resultados de UX (planilha AttrakDiff)
 - [ ] Levar tudo para os slides (Fase 5)
 
-> **Pendências do grupo (não dá pra eu fazer sozinho):** recrutar e rodar com pessoas reais, gravar as sessões, preencher as planilhas. Eu posso: montar o **formulário UEQ-S** pronto, a **planilha de coleta**, e ajudar a **classificar os defeitos + correções** depois que vocês rodarem.
+> **Pendências do grupo (não dá pra eu fazer sozinho):** recrutar e rodar com pessoas reais, gravar as sessões, preencher as planilhas. Eu posso: montar o **formulário AttrakDiff** pronto, a **planilha de coleta**, e ajudar a **classificar os defeitos + correções** depois que vocês rodarem.

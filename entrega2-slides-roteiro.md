@@ -2,12 +2,12 @@
 
 > Conteúdo aprovado dos 10 slides da apresentação (≤15 min). Estilo visual: **Sinal & Fibra** — navy `#0B1220`, azul `#1D4ED8`, ciano `#06B6D4`, geométrico com motivo de sinal.
 > **Status:** a geração no Canva (IA) estava falhando no servidor (jun/2026) — roteiro guardado para regerar quando voltar, ou montar manualmente / via .pptx.
-> Cobertura: itens 2.1 a 2.4 da Entrega 2. Slides 8 e 9 dependem da execução do teste (marcados **[A PREENCHER]**).
+> Cobertura: itens 2.1 a 2.4 da Entrega 2. Slides 8 e 9 já preenchidos com os resultados reais (3 participantes, 3 defeitos com antes/depois, AttrakDiff).
 
 ---
 
 ## 1 · Track Fibra (capa)
-- Sistema de gerenciamento de chamadas de serviço para provedores de internet (web + mobile)
+- Sistema de gerenciamento de chamadas de serviço para provedores de internet — app mobile do técnico de campo
 - Equipe: Kauan Silva Schiavon · Leonardo Hideki Gen Sato · Pedro Henrique Tardivo Rodrigues · Guilherme Fiuza R. P. de Carvalho
 - UTFPR – Campo Mourão · Bacharelado em Ciência da Computação
 - Interação Humano-Computador · 2026
@@ -58,7 +58,7 @@
 
 **Técnicas (1 de usabilidade + 1 de UX):**
 - **Usabilidade — Teste por tarefas com Think-Aloud** (moderado): o participante executa tarefas reais pensando em voz alta; o moderador observa sem ajudar. Mede o que a pessoa **faz** (sucesso, erros, hesitações, tempo).
-- **UX — AttrakDiff** (User Experience Questionnaire): ao final, 28 pares de adjetivos opostos (escala 1–7), cobrindo 4 dimensões — PQ (qualidade pragmática), HQ-S (estimulação), HQ-I (identidade) e ATT (atratividade geral). Mede o que a pessoa **sente**.
+- **UX — AttrakDiff** (questionário de UX de Hassenzahl): ao final, 28 pares de adjetivos opostos, coletados em escala 1–7 e reportados de −3 a +3, cobrindo 4 dimensões — PQ (qualidade pragmática), HQ-I (identidade), HQ-S (estimulação) e ATT (atratividade geral). Mede o que a pessoa **sente**.
 
 **Lista de tarefas do teste:**
 - **T1 — Login:** entrar no app para começar o dia → chega na lista de chamados
@@ -104,7 +104,7 @@
 ## 10 · Obrigado · Demonstração *(2.4)*
 - Demonstração ao vivo: **landing page**, **vídeo** e **protótipo final**
 - Landing page: https://pedroh-tardivo.github.io/track-fibra
-- Protótipo (Figma): https://www.figma.com/design/WlkwUAUbbs0dsNf184dEUv
+- Protótipo (Figma): https://www.figma.com/proto/WlkwUAUbbs0dsNf184dEUv/Track-Fibra?node-id=6-2&starting-point-node-id=6-2&scaling=scale-down-width
 - Equipe de IHC — UTFPR Campo Mourão · 2026
 
 ---
