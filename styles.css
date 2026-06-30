@@ -235,3 +235,5 @@ footer .foot-col h5{font-family:var(--display)}
 .sketch-card figcaption{text-align:center;font-size:.9rem;font-weight:600;color:var(--gray);margin-top:10px}
 @media(max-width:860px){.sketch-grid{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:480px){.sketch-grid{grid-template-columns:1fr}}
+
+.member img.avatar{object-fit:cover}
