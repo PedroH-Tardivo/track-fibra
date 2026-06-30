@@ -81,10 +81,13 @@
 
 ## 9 · Melhorias e resultados de UX *(2.3)*
 
-**Antes → Depois (screenshots no Figma):**
-- **D1:** tela de Encerramento sem retorno → tela de "Chamado Finalizado" com botão "Desfazer" no topo
-- **D2:** número de telefone como texto simples → ícone de chamada clicável que abre discador
-- **D3:** detalhe sem campo de mídia → botão "Adicionar foto" abaixo das observações
+**Antes → Depois (screenshots em `assets/`):**
+
+| Defeito | Antes | Depois |
+|---|---|---|
+| D1 — sem confirmação ao finalizar | `antes-d1-finalizado-sem-desfazer.png` (tela "Chamado finalizado!" sem opção de reverter) | `depois-d1-finalizado-com-desfazer.png` (mesma tela com link "Desfazer" acima do botão) |
+| D2 — telefone sem ação | `antes-d2d3-detalhe-sem-icone-sem-foto.png` (campo Telefone como texto puro) | `depois-d2-detalhe-com-icone-ligar.png` (ícone azul clicável) + `depois-d2-ligando.png` (tela "Ligando…") |
+| D3 — sem adicionar foto | `antes-d2d3-detalhe-sem-icone-sem-foto.png` (sem campo de mídia) | `antes-d2-depois-d3-detalhe-com-foto.png` (área "Adicionar foto do atendimento") |
 
 **Resultados do AttrakDiff (3 participantes, escala -3 a +3):**
 
