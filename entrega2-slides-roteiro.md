@@ -45,11 +45,31 @@
 - Demonstra o foco do sprint de ponta a ponta — do login à conclusão do chamado
 
 ## 7 · Teste de usabilidade + UX: método *(2.2)*
-- Participantes: 5, anônimos (P1–P5), com familiaridade digital variada
-- Técnica de usabilidade: **Teste por tarefas com Think-Aloud** (pensar em voz alta)
-- Técnica de UX: **UEQ-S** (questionário de experiência do usuário)
-- Tarefas: T1 login · T2 ver chamados pendentes · T3 buscar chamado · T4 rota no mapa · T5 encerrar/reagendar
-- *(detalhes em `fase4-teste-usabilidade-ux.md`)*
+
+**Participantes — 5, anônimos (P1–P5), todos do público-alvo (técnico de campo de ISP):**
+
+| | Faixa | Familiaridade digital | Função | Usa app no trabalho? |
+|---|---|---|---|---|
+| P1 | 18–25 | Alta | Técnico de instalação | Sim |
+| P2 | 26–35 | Média | Técnico de manutenção | Sim |
+| P3 | 36–45 | Baixa | Técnico veterano | Não (papel) |
+| P4 | 26–35 | Alta | Auxiliar técnico | Sim |
+| P5 | 46–55 | Baixa–Média | Técnico veterano | Raramente |
+
+*Sem identificação pessoal (só P1–P5). Mínimo exigido = 3; usamos 5, variando idade e familiaridade digital.*
+
+**Técnicas (1 de usabilidade + 1 de UX):**
+- **Usabilidade — Teste por tarefas com Think-Aloud** (moderado): o participante executa tarefas reais pensando em voz alta; o moderador observa sem ajudar. Mede o que a pessoa **faz** (sucesso, erros, hesitações, tempo).
+- **UX — UEQ-S** (User Experience Questionnaire, versão curta): ao final, 8 pares de adjetivos opostos (-3 a +3) → qualidade **pragmática** + **hedônica**. Mede o que a pessoa **sente**.
+
+**Lista de tarefas do teste:**
+- **T1 — Login:** entrar no app para começar o dia → chega na lista de chamados
+- **T2 — Chamados pendentes** *(foco do sprint)*: dizer quantos chamados há hoje e qual o primeiro a atender
+- **T3 — Localizar chamado:** achar o chamado de instalação do cliente (Júlio) por busca ou filtro
+- **T4 — Rota:** ver no mapa a próxima parada e o trajeto até ela
+- **T5 — Concluir atendimento:** registrar observação e finalizar (ou reagendar) o chamado
+
+*(roteiro do moderador, métricas e planilha de coleta em `fase4-teste-usabilidade-ux.md`)*
 
 ## 8 · Resultados: defeitos encontrados *(2.3)* — **[A PREENCHER após o teste]**
 - 3 a 5 defeitos de usabilidade

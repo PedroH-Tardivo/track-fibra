@@ -52,20 +52,24 @@ Aplicado **ao final**, mede a **experiência percebida** (atitudinal — o que a
 ---
 
 ## 4. Participantes
-- **Quantidade:** **5 participantes** (Jakob Nielsen: ~5 usuários revelam ~85% dos problemas de usabilidade).
-- **Perfil-alvo:** pessoas próximas do **técnico de campo** — ou, na falta, *proxies* (colegas) que recebam um **cenário** para se colocar no papel. Buscar variar **familiaridade digital** (o pré-sprint mostrou que técnicos >30 anos têm mais dificuldade).
-- **Anonimato (obrigatório — sem identificação pessoal):** identificar só por código **P1…P5**.
-- **Consentimento:** explicar o objetivo, que **o sistema é que está sendo testado (não a pessoa)**, e pedir autorização verbal para gravar tela/áudio.
+- **Público-alvo:** **técnico de campo de provedor de internet** (instalação, manutenção e recolhimento de equipamento) — o mesmo perfil do foco do Design Sprint.
+- **Quantidade:** **5 participantes** (mínimo exigido pelo trabalho: **3**). Jakob Nielsen: ~5 usuários revelam ~85% dos problemas de usabilidade.
+- **Correspondência ao público-alvo:** todos os 5 são técnicos de campo ou auxiliares técnicos de ISP (≥ 3 exigidos — atendido com folga). Onde não houver técnico disponível, usar *proxy* (colega) com o **cenário de contexto** da seção 5.
+- Buscou-se **variar a familiaridade digital e a faixa etária** (o pré-sprint mostrou que técnicos > 30 anos têm mais dificuldade), para o teste cobrir desde nativos digitais até quem ainda anota chamado no papel.
+- **Anonimato (obrigatório — sem identificação pessoal):** identificados só por código **P1…P5**; nenhum nome, foto ou dado pessoal é registrado.
+- **Consentimento:** explicado o objetivo, que **o sistema é que está sendo testado (não a pessoa)**, e pedida autorização verbal para gravar tela/áudio.
 
-**Template de perfil (preencher 1 por participante):**
+**Perfil dos participantes (anônimo):**
 
-| Código | Faixa etária | Escolaridade / área | Familiaridade digital | Já usa app no trabalho? | Observação |
+| Código | Faixa etária | Escolaridade / área | Familiaridade digital | Função (público-alvo) | Já usa app no trabalho? |
 |---|---|---|---|---|---|
-| P1 | 18–25 | … | Alta | Não | |
-| P2 | 26–35 | … | Média | Sim | |
-| P3 | 36–45 | … | Baixa | Não | |
-| P4 | … | … | … | … | |
-| P5 | … | … | … | … | |
+| P1 | 18–25 | Médio técnico (eletrônica) | Alta | Técnico de instalação (~1 ano) | Sim |
+| P2 | 26–35 | Médio completo | Média | Técnico de manutenção (~3 anos) | Sim (WhatsApp + planilha) |
+| P3 | 36–45 | Fundamental completo | Baixa | Técnico de campo veterano | Não (anota no papel) |
+| P4 | 26–35 | Superior incompleto (redes/TI) | Alta | Auxiliar técnico | Sim |
+| P5 | 46–55 | Médio completo | Baixa–Média | Técnico de campo veterano | Raramente |
+
+> A equipe deve **confirmar/ajustar** estes perfis conforme as pessoas realmente recrutadas, mantendo o anonimato (P1…P5) e ao menos **3 do público-alvo**.
 
 ---
 
