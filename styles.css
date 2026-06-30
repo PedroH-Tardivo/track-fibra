@@ -227,13 +227,4 @@ footer .foot-col h5{font-family:var(--display)}
 .reveal.in{opacity:1;transform:none}
 @media(prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none}}
 
-/* ===== Esboços do Design Sprint ===== */
-.sketch-title{font-family:var(--display);font-size:1.15rem;font-weight:600;text-align:center;margin:40px 0 22px;color:var(--ink-2)}
-.sketch-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
-.sketch-card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:12px;box-shadow:var(--shadow-sm)}
-.sketch-card img{width:100%;height:300px;object-fit:cover;object-position:center top;border-radius:var(--radius-sm);background:#EEF3F8}
-.sketch-card figcaption{text-align:center;font-size:.9rem;font-weight:600;color:var(--gray);margin-top:10px}
-@media(max-width:860px){.sketch-grid{grid-template-columns:repeat(2,1fr)}}
-@media(max-width:480px){.sketch-grid{grid-template-columns:1fr}}
-
 .member img.avatar{object-fit:cover}
