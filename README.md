@@ -29,15 +29,13 @@ Track Fibra é um app mobile para **técnicos de campo de provedores de internet
 ## Estrutura do repositório
 
 ```
-index.html          — landing page (Entrega 1)
-styles.css          — estilos da landing
+index.html                  — landing page (Entrega 1)
+styles.css                  — estilos da landing
 assets/
-  foto-*.jpg        — fotos da equipe
-  proto-*.png       — prints do protótipo (Figma)
-CLAUDE.md           — referência completa das entregas e requisitos
-entrega2-slides-roteiro.md   — roteiro dos slides da Entrega 2
-fase4-teste-usabilidade-ux.md — plano e resultados do teste de usabilidade
-transcricao-design-sprint.md  — artefatos do Design Sprint (mapa, esboços, storyboard)
+  foto-*.jpg                — fotos da equipe
+  antes-*.png / depois-*.png — screenshots antes/depois do teste (Entrega 2)
+entrega2-track-fibra.pptx   — slides da Entrega 2 (12 slides)
+README.md                   — este arquivo
 ```
 
 ---
@@ -56,15 +54,23 @@ transcricao-design-sprint.md  — artefatos do Design Sprint (mapa, esboços, st
 
 ### Entrega 2 — Slides + apresentação (100 pts)
 
-| Item | Status |
-|---|---|
-| Visão geral da solução + motivação (pré-sprint) | ✅ slides 2–5 |
-| Perfil dos participantes (3 participantes, anônimos P1–P3) | ✅ slide 7 |
-| Técnicas: Think-Aloud (usabilidade) + AttrakDiff (UX) | ✅ slide 7 |
-| Lista de 5 tarefas do teste | ✅ slide 7 |
-| 3 defeitos com antes/depois + resultados AttrakDiff | ✅ slides 8–9 |
-| Links (landing page + protótipo) | ✅ slide 10 |
-| Demo do protótipo ao vivo | a apresentar |
+| Item | Slide | Status |
+|---|---|---|
+| Visão geral da solução + motivação (pré-sprint) | 2–5 | ✅ |
+| Técnicas: Think-Aloud (usabilidade) + AttrakDiff (UX) | 7 | ✅ |
+| Perfil dos participantes (P1–P3, anônimos, técnicos de ISP) | 8 | ✅ |
+| 3 defeitos (antes/depois + heurística Nielsen) | 9–10 | ✅ |
+| Resultados AttrakDiff | 11 | ✅ |
+| Links (landing page + protótipo) | 12 | ✅ |
+| Demo do protótipo ao vivo | — | a apresentar |
+
+**Perfil dos participantes (P1–P3):**
+
+| Código | Faixa etária | Familiaridade digital | Função | Meio atual |
+|---|---|---|---|---|
+| P1 | 18–25 anos | Alta | Técnico de instalação | WhatsApp |
+| P2 | 26–35 anos | Média | Técnico de manutenção | WhatsApp |
+| P3 | 36–45 anos | Baixa | Técnico veterano | Ligação |
 
 ---
 
